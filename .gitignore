@@ -1,0 +1,45 @@
+# Virtual Environemnt
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode/Cache
+__pycharm__/
+*.py[cod]
+*.$py.class
+*.so
+
+# PyCharm/IDE-Specific
+.idea/
+
+# Environment/Scripts
+.env
+*.env
+.env.local
+
+# Data Files
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.vault
+
+# Testing/Coverage Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checking Cache
+.mypy_cache/
+.rff_cache/
+
+# OS-Specific
+.DB_Store
+Thumbs.db
+
+# Build/Packaging Artifacts
+build/
+dist/
+*.egg-info
+*.spec
